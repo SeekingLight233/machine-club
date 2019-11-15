@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "refresh": "/components/refresh",
+    "nav-tab": "/components/navTab",
+    "click-circle": "/components/clickCircle"
+  }
+}

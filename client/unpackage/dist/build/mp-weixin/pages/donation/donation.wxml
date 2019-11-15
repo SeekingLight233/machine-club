@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['longpress',[['donation']]]]}}" class="center" bindlongpress="__e"><image class="myimg" src="http://www.jixieclub.com:3002/images/donation.jpg" mode></image></view></view>

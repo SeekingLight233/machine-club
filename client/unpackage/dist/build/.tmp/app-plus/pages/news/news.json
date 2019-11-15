@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "zy-search": "/components/zy-search/zy-search",
+    "news-card": "/components/news-card/news-card"
+  }
+}

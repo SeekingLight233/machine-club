@@ -1,0 +1,31 @@
+
+.container-card.data-v-e467f3de {
+	height: 95px;
+	/* border: red solid 1px; */
+}
+.left.data-v-e467f3de {
+	/* background-color: #39B54A; */
+}
+.right.data-v-e467f3de {
+	/* background-color: #5E00FF; */
+}
+.title.data-v-e467f3de {
+}
+.center.data-v-e467f3de{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	align-item: center;
+	/* padding-left: 20rpx; */
+}
+.image2.data-v-e467f3de{
+	  width: 100%;
+	  height: 100%;
+}
+
+

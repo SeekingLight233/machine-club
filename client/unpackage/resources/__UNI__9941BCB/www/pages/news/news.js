@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"button-group.",[1],"data-v-7da2d0e4 { margin-left: ",[0,179],"; margin-bottom: ",[0,20],"; }\n.",[1],"my-margin.",[1],"data-v-7da2d0e4 { margin-right: ",[0,112],"; }\n",],undefined,{path:"./pages/news/news.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/news/news.wxml') } }));

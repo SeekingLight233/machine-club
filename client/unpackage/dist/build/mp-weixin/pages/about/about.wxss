@@ -1,0 +1,50 @@
+
+#myimage {
+	background: url(http://www.jixieclub.com:3002/images/user.jpg);
+	width: 100%;
+	height: 250px;
+	background-size: contain;
+}
+#center {
+	margin: 72px 137px;
+	width: 100px;
+	height: 100px;
+}
+#mymargin {
+	border-top: #ebebeb solid 2px;
+}
+#my-text {
+	text-align: justify;
+	width: 90%;
+}
+#center1 {
+	display: block;
+	width: 80%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: -10px;
+}
+.my-margin-left{
+	margin-left: 5px;
+}
+#father{
+	margin-left:23px;
+	margin-top: 47px;
+}
+.mywidth{
+	width: 323px;
+}
+.footer-margin{
+	margin-left: 41px;
+}
+#footer{
+	margin-left:111px ;
+	margin-top: 50px;
+}
+

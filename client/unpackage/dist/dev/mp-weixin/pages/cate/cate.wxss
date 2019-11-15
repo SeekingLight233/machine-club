@@ -1,0 +1,15 @@
+
+.example-body.data-v-629bf087 {
+	border-top: 1px #f5f5f5 solid;
+	padding: 30rpx;
+	background: #fff
+}
+.image.data-v-629bf087 {
+	width: 50rpx;
+	height: 50rpx;
+}
+.text.data-v-629bf087 {
+	font-size: 26rpx;
+	margin-top: 10rpx;
+}
+

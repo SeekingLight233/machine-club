@@ -1,0 +1,10 @@
+
+.myimg{
+	width: 300px;
+	height: 405px;
+}
+.center{
+	margin-left: 10%;
+	margin-top: 20%;
+}
+

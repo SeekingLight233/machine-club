@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"example-body.",[1],"data-v-195233c8 { border-top: 1px #f5f5f5 solid; padding: ",[0,30],"; background: #fff }\n.",[1],"image.",[1],"data-v-195233c8 { width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"text.",[1],"data-v-195233c8 { font-size: ",[0,26],"; margin-top: ",[0,10],"; }\n",],undefined,{path:"./pages/cate/cate.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/cate/cate.wxml') } }));

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"myimg{ width: 300px; height: 405px; }\n.",[1],"center{ margin-left: 10%; margin-top: 20%; }\n",],undefined,{path:"./pages/donation/donation.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/donation/donation.wxml') } }));

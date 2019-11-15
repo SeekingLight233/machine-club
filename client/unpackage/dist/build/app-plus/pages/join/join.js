@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"myimg { width: 150px; height: 150px; }\n.",[1],"info {}\n.",[1],"mytext { margin-left: 20px; margin-bottom: 20px; display: block; }\n.",[1],"my-margin { margin-left: 25px; margin-right: 25px; }\n.",[1],"my-margin-top { margin-top: 50px; margin-bottom: 10px; }\n",],undefined,{path:"./pages/join/join.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/join/join.wxml') } }));

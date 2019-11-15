@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/tools/tools",
+    "pages/cate/cate",
+    "pages/user/user",
+    "pages/news-detail/news-detail",
+    "pages/cate-detail/cate-detail",
+    "pages/tools-detail/tools-detail",
+    "pages/search-res-tool/search-res-tool",
+    "pages/donation/donation",
+    "pages/join/join",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#999999",
+    "navigationBarTitleText": "机械学霸",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "头条",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabs/news0.png",
+        "selectedIconPath": "static/tabs/news0.png"
+      },
+      {
+        "text": "工具",
+        "pagePath": "pages/tools/tools",
+        "iconPath": "static/tabs/tool0.png",
+        "selectedIconPath": "static/tabs/tool0.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/cate/cate",
+        "iconPath": "static/tabs/cate0.png",
+        "selectedIconPath": "static/tabs/cate0.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabs/user0.png",
+        "selectedIconPath": "static/tabs/user0.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

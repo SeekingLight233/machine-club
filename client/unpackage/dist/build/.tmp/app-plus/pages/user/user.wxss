@@ -1,0 +1,17 @@
+
+#myimage {
+	background: url(http://www.jixieclub.com:3002/images/user.jpg);
+	width: 100%;
+	height: 250px;
+	background-size: contain;
+}
+#center{
+	margin: 72px 137px;
+	width: 100px;
+	height: 100px;
+}
+#mymargin{
+	border-top: #ebebeb solid 2px;
+}
+
+
