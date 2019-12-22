@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view id="myimage">
-			<view class="cu-avatar xl round margin-left" style="background-image:url(http://www.jixieclub.com:3002/images/jixieclub.jpg);" id="center"></view>
+			<view class="cu-avatar xl round margin-left" style="background-image:url(https://www.jixieclub.com:3002/images/jixieclub.jpg);" id="center"></view>
 		</view>
 		<view class='cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-warp bg-white'>
 			<view class='cu-item arrow shadow'    @click="donation()">
@@ -48,7 +48,7 @@
 
 <style>
 	#myimage {
-		background: url(http://www.jixieclub.com:3002/images/user.jpg);
+		background: url(https://www.jixieclub.com:3002/images/user.jpg);
 		width: 100%;
 		height: 250px;
 		background-size: contain;

@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view class="center" @longpress="donation()">
-			<image src="http://www.jixieclub.com:3002/images/donation.jpg" mode="" class="myimg"></image>
+			<image src="https://www.jixieclub.com:3002/images/donation.jpg" mode="" class="myimg"></image>
 		</view>
 		
 	</view>
@@ -17,12 +17,12 @@
 		methods: {
 			donation(){
 				uni.previewImage({
-					urls:"http://www.jixieclub.com:3002/images/donation.jpg"
+					urls:"https://www.jixieclub.com:3002/images/donation.jpg"
 				})
 				//#ifdef MP-WEIXIN
 				wx.previewImage({
-				  current: 'http://www.jixieclub.com:3002/images/donation.jpg', // 当前显示图片的http链接
-				  urls: ["http://www.jixieclub.com:3002/images/donation.jpg"] // 需要预览的图片http链接列表
+				  current: 'https://www.jixieclub.com:3002/images/donation.jpg', // 当前显示图片的http链接
+				  urls: ["https://www.jixieclub.com:3002/images/donation.jpg"] // 需要预览的图片http链接列表
 				})
 				//#endif
 			}

@@ -19,62 +19,62 @@
 		data() {
 			return {
 				list: [{
-						url: 'http://www.jixieclub.com:3002/images/jxyl.png',
+						url: 'https://www.jixieclub.com:3002/images/jxyl.png',
 						text: '机械原理',
 						cate:'jxyl'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/jxsj.png',
+						url: 'https://www.jixieclub.com:3002/images/jxsj.png',
 						text: '机械设计',
 						cate:'jxsj'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/jxzz.png',
+						url: 'https://www.jixieclub.com:3002/images/jxzz.png',
 						text: '机械制造',
 						cate:'jxzz'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/cad.png',
+						url: 'https://www.jixieclub.com:3002/images/cad.png',
 						text: 'CAD/CAM',
 						cate:'cad'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/gjjs.png',
+						url: 'https://www.jixieclub.com:3002/images/gjjs.png',
 						text: '工匠精神',
 						cate:'gjjs'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/kyzq.png',
+						url: 'https://www.jixieclub.com:3002/images/kyzq.png',
 						text: '考研专区',
 						cate:'kyzq'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/bysj.png',
+						url: 'https://www.jixieclub.com:3002/images/bysj.png',
 						text: '毕业设计',
 						cate:'bysj'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/diy.png',
+						url: 'https://www.jixieclub.com:3002/images/diy.png',
 						text: 'diy专区',
 						cate:'diy'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/gyzdh.png',
+						url: 'https://www.jixieclub.com:3002/images/gyzdh.png',
 						text: '工业自动化',
 						cate:'gyzdh'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/clgc.png',
+						url: 'https://www.jixieclub.com:3002/images/clgc.png',
 						text: '材料工程',
 						cate:'clgc'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/qykj.png',
+						url: 'https://www.jixieclub.com:3002/images/qykj.png',
 						text: '前沿科技',
 						cate:'qykj'
 					},
 					{
-						url: 'http://www.jixieclub.com:3002/images/zyxz.png',
+						url: 'https://www.jixieclub.com:3002/images/zyxz.png',
 						text: '资源下载',
 						cate:'zyxz'
 					}

@@ -55,7 +55,7 @@
         </div>
         <div class="text">备注</div>
       </div>
-      <img src="http://39.107.97.170:3002/images/vxc.png" alt width="50%" />
+      <img src="https://www.jixieclub.com:3002/images/vxc.png" alt width="50%" />
       <div class="center">
         <p
           class="para"

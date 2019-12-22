@@ -1,6 +1,6 @@
 
 #myimage {
-	background: url(http://www.jixieclub.com:3002/images/user.jpg);
+	background: url(https://www.jixieclub.com:3002/images/user.jpg);
 	width: 100%;
 	height: 250px;
 	background-size: contain;

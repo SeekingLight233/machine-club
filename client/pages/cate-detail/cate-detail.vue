@@ -53,7 +53,7 @@
 				
 				this.Pnum++;
 				uni.request({
-					url: 'http://www.jixieclub.com:3002/cate',
+					url: 'https://www.jixieclub.com:3002/cate',
 					data: {
 						Pnum: num,
 						cate: this.$store.state.cate
@@ -79,11 +79,10 @@
 							}
 						}
 
-
 						for (let i = 0; i < 15; i++) {
 							// console.log(res.data[i]._id)
-							// this.realImg.push("http://www.jixieclub.com:3002/static/"+res.data[i]._id+".png")
-							res.data[i].realImg = "http://www.jixieclub.com:3002/static/" + res.data[i]._id + ".png"
+							// this.realImg.push("https://www.jixieclub.com:3002/static/"+res.data[i]._id+".png")
+							res.data[i].realImg = "https://www.jixieclub.com:3002/static/" + res.data[i]._id + ".png"
 						}
 						this.list = res.data;
 						// console.log(res.data);
@@ -94,47 +93,48 @@
 				});
 
 				//#ifdef  MP-WEIXIN
-				wx.cloud.callFunction({
-					name: 'pullcate',
-					data: {
-						Pnum: num,
-						cate: this.$store.state.cate
-					},
-					success: res => {
-						console.log(res.result);
-						res.data = JSON.parse(res.result);
-						console.log(res.data);
-						if (res.data.length < 15) {
-							this.list = res.data;
-						}
-						for (var j = 0; j < res.data.length; j++) {
-							// console.log(res.result.data[j].imgsrc);
-							var strtmp = "";
-							strtmp = res.data[j].imgsrc;
-							if (strtmp.substring(0, 21) == "https://mmbiz.qpic.cn") {
-								var a = strtmp.split("")
-								for (var i = 0; i < a.length; i++) {
-									if (a[i] == '&') {
-										a[i] = '/u0026';
-									}
-								}
-								res.data[j].imgsrc = a.join("");
-								// console.log(res.result.data[j].imgsrc);
-							}
-						}
-
-
-						for (let i = 0; i < 15; i++) {
-							// console.log(res.data[i]._id)
-							// this.realImg.push("http://www.jixieclub.com:3002/static/"+res.data[i]._id+".png")
-							res.data[i].realImg = "http://www.jixieclub.com:3002/static/" + res.data[i]._id + ".png"
-						}
-						this.list = res.data;
-						// console.log(res.data);
-						this.end = new Date().getTime();
-						this.time = this.end - this.start;
-					}
-				});
+// 				wx.cloud.callFunction({
+// 					name: 'pullcate',
+// 					data: {
+// 						Pnum: num,
+// 						cate: this.$store.state.cate
+// 					},
+// 					success: res => {
+// 						console.log(res.result);
+// 						res.data = JSON.parse(res.result);
+// 						console.log(res.data);
+// 						if (res.data.length < 15) {
+// 							this.list = res.data;
+// 						}
+// 						for (var j = 0; j < res.data.length; j++) {
+// 							// console.log(res.result.data[j].imgsrc);
+// 							var strtmp = "";
+// 							strtmp = res.data[j].imgsrc;
+// 							if (strtmp.substring(0, 21) == "https://mmbiz.qpic.cn") {
+// 								var a = strtmp.split("")
+// 								for (var i = 0; i < a.length; i++) {
+// 									if (a[i] == '&') {
+// 										a[i] = '/u0026';
+// 									}
+// 								}
+// 								res.data[j].imgsrc = a.join("");
+// 								// console.log(res.result.data[j].imgsrc);
+// 							}
+// 						}
+// 
+// 
+// 						for (let i = 0; i < 15; i++) {
+// 							// console.log(res.data[i]._id)
+// 							// this.realImg.push("https://www.jixieclub.com:3002/static/"+res.data[i]._id+".png")
+// 							res.data[i].realImg = "https://www.jixieclub.com:3002/static/" + res.data[i]._id + ".png"
+// 						}
+// 						this.list = res.data;
+// 						// console.log(res.data);
+// 						this.end = new Date().getTime();
+// 						this.time = this.end - this.start;
+// 					}
+// 				});
+// 				
 				//#endif
 			},
 			next() {
